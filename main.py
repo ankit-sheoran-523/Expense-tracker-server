@@ -4,7 +4,9 @@ import sqlite3,tempfile
 import json
 
 # DB_path=os.path.join(os.path.dirname(__file__),"expenses.db")
-DB_path = os.path.join(tempfile.gettempdir(), "expenses.db")
+DB_path = os.environ.get("DB_PATH", "/data/expenses.db")
+os.makedirs(os.path.dirname(DB_path), exist_ok=True)
+
 CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
 
 mcp=FastMCP("expense Tracker")
