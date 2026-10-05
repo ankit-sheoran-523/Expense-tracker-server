@@ -128,9 +128,9 @@ def categories():
 def server_info()->str:
     """Get the info about this server."""
     info={
-        "name":"Simple Expence Tracker",
+        "name":"Simple Expense Tracker",
         "version":"1.0.0",
-        "description":"A basic MCP server with Expence Tracking methods",
+        "description":"A basic MCP server with Expense Tracking methods",
         "tools":["add_expense","list_expenses",'summarize'],
         "author":"ABC-tester"
     }
