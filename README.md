@@ -1,3 +1,3 @@
 ---
-##Small MCP Server for testing
+## Small MCP Server for testing
 ---
