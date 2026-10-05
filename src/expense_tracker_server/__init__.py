@@ -1,2 +1,2 @@
 def main() -> None:
-    print("Hello from expence-tracker-server!")
+    print("Hello from expense-tracker-server!")

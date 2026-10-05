@@ -1,5 +1,5 @@
 [project]
-name = "expence-tracker-server"
+name = "expense-tracker-server"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-expence-tracker-server = "expence_tracker_server:main"
+expense-tracker-server = "expense_tracker_server:main"
 
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]
