@@ -138,4 +138,4 @@ def server_info()->str:
     return json.dumps(info,indent=2)
 
 if __name__=='__main__':
-    mcp.run()
+    mcp.run(transport='sse',port=8000,host='0.0.0.0')
